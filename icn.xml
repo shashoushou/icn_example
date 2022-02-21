@@ -4,8 +4,10 @@
   <default sync-j="8"/>
 
   <remote name="origin" fetch="https://github.com/shashoushou/icn-sdk" />
+  <remote name="oe" fetch="https://github.com/openembedded"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
 
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="f44e1a2b575826e88b8cb2725e54a7c5d29cf94a" upstream="hardknott"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="f44e1a2b575826e88b8cb2725e54a7c5d29cf94a" upstream="hardknott"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="269265c00091fa65f93de6cad32bf24f1e7f72a3" upstream="hardknott"/>
   <project name="origin" path="sources/meta-icn-sdk" remote="main" revision="8a9196684f9ca61dd67b9faea0171ee251f462b4" upstream="main"/>
